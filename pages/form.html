@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.jpg">
+</head>
+<body>
+    <h1>Form Pendataran Studi Independen 2023 - PT Arkatama Multi Solusindo</h1>
+    <form>
+        <label for="nama-lengkap">Nama</label> <br>
+        <input type="text" name="nama-lengkap" required placeholder="Nama lengkap"> <br><br>
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" placeholder="Email aktif" required><br><br>
+        <label for="captcha">No HP</label><br>
+        <input type="tel" name="no-hp" placeholder="No HP aktif" pattern="[0-9]{12}" required><br><br>
+
+        Jenis Kelamin <br>
+        <input type="radio" name="jenis kelamin" id="lk">
+        <label for="lk">Laki - Laki</label><br>
+        <input type="radio" name="jenis kelamin" id="pr">
+        <label for="pr">Perempuan</label><br><br>
+
+        <label for="prodi">Prodi</label><br>
+        <select name="prodi" id="prodi">
+            <option value="pilih">Pilih</option>
+            <option value="TI">Teknik Informatika</option>
+            <option value="TS">Teknik Sipil</option>
+            <option value="TM">Teknik Mesin</option>
+        </select><br><br>
+
+        Hobi <br>
+        <input type="checkbox" name="hobi" id="baca">
+        <label for="baca">Membaca</label><br>
+        <input type="checkbox" name="hobi" id="tulis">
+        <label for="tulis">Menulis</label><br>
+        <input type="checkbox" name="hobi" id="nyanyi">
+        <label for="nyayi">Menyanyi</label><br>
+        <input type="checkbox" name="hobi" id="olga">
+        <label for="olga">Olahraga</label><br><br>
+
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" cols="20" rows="2" placeholder="Alamat lengkap"></textarea><br><br>
+
+        <label for="foto">Foto Diri</label><br>
+        <input type="file" name="foto" id="foto"><br><br>
+       
+        <button>Daftar</button><br>
+    </form>
+</body>
+</html>
