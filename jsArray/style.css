@@ -1,0 +1,28 @@
+.product-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    display: flex;
+}
+
+/* Style each product item */
+.product-item {
+    border-radius: 25px;
+    background-color:rgb(157, 212, 210);
+    padding: 15px;
+    width: 150px;
+    height: 200px;
+
+}
+
+/* Style product image */
+.product-image {
+    height: 80px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
