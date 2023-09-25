@@ -1,0 +1,37 @@
+@media (min-width: 500px), (max-width: 780px){
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #5227b6;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 20px;
+        justify-content: space-around;
+    }
+    
+    .product-card {
+        width: 200px;
+        margin: 10px;
+        border: 1px solid #585151;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .product-image {
+        max-width: 50%;
+        height: auto;
+    }
+    
+    .product-price {
+        color: #007bff;
+        font-weight: bold;
+    }
+}
